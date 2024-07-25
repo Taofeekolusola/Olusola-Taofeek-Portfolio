@@ -4,7 +4,7 @@ export default function Hero() {
     return <section className={styles.container}>
         <div className={styles.content}>
             <h1 className={styles.title}>Hi, I'm Taofeek</h1>
-            <p className={styles.decription}>I'm a Frontend Developer with two years of experience using React and Node.js. 
+            <p className={styles.decription}>I'm a Frontend Developer with a year of experience using React and Node.js. 
                 Reach out if you'd like to learn more about me.</p>
             <a className={styles.contact} href="mailto:olusolataofeek@gmail.com">Contact Me</a>
         </div>
