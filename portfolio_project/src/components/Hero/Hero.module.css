@@ -1,7 +1,7 @@
 @import '../../vars.css';
 .imgclass {
     border-radius: 50%;
-    width: 50%;
+    width: 35%;
     z-index: 1;
 
     animation-name: floating;
@@ -72,9 +72,9 @@ bottomBlur {
 }
 
 .title {
-    font-size: 72px;
+    font-size: 50px;
     font-family: var(--font-roboto);
-    font-weight: 900;
+    font-weight: 700;
     margin-bottom: 33px;
     background: linear-gradient(90deg, rgba(255, 255, 255, 1) 70%, rgba(255, 255, 255, 0) 120%);
 
@@ -83,7 +83,7 @@ bottomBlur {
 };
 
 .description {
-    font-size: 30px;
+    font-size: 60px;
     font-family: var(--font-roboto);
     margin-bottom: 52px;
 }
@@ -92,10 +92,11 @@ bottomBlur {
     text-decoration: none;
     background-color: var(--color-primary);
     color: var(--color-text);
-    border-radius: 30%;
+    border-radius: 50%;
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 400;
     padding: 17px 26px;
+    margin-top: 1rem;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
 }
 

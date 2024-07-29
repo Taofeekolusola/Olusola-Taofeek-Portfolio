@@ -2,8 +2,8 @@
     {
         "title": "Project A",
         "imageSrc": "projects/project.png",
-        "description": "This is a Todo-List project developed to learn new Applications in frontend development, and further improve on react usage in frontend development.",
-        "skills": ["React", "Node"],
+        "description": "This is a Todo-List project developed using react.",
+        "skills": ["React", "JS"],
         "demo": "https://todo-app-orpin-phi.vercel.app/",
         "source": "https://github.com/Taofeekolusola/Todo-App/tree/main/Todo_App"
     },
@@ -11,7 +11,7 @@
     {
         "title": "Project B",
         "imageSrc": "projects/project.png",
-        "description": "This is a responsive web project developed to explore the usage of advanced HTML and CSS in developing a responsive website.",
+        "description": "This is a responsive web project developed using HTML and CSS.",
         "skills": ["HTML", "CSS"],
         "demo": "https://responsive-techie-web.vercel.app/",
         "source": "https://github.com/Taofeekolusola/freecodecamp/tree/main/responsive_web"
@@ -20,8 +20,8 @@
     {
         "title": "Project C",
         "imageSrc": "projects/project.png",
-        "description": "This is an Analog-Clock project developed to further explore the basic usage of HTML CSS and Javascript.",
-        "skills": ["HTML", "CSS", "Node"],
+        "description": "This is an Analog-Clock developed using HTML CSS and JS.",
+        "skills": ["HTML", "CSS", "JS"],
         "demo": "https://codepen.io/Taofeek-Olusola/pen/YzMREzo",
         "source": "https://github.com/Taofeekolusola/Recipe-App/tree/main/Analog-clock"
     }
