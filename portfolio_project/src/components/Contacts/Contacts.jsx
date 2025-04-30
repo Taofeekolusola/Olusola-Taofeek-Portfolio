@@ -1,30 +1,62 @@
-import getImageUrl from '../../utils'
-import styles from './Contacts.module.css'
+import getImageUrl from '../../utils';
+
 export default function Contact() {
-    return (
-        <footer id="contact" className={styles.container}>
-            <div className={styles.text}>
-                <h2>Contact</h2>
-                <p>Feel free to reach out</p>
-            </div>
-            <ul className={styles.links}>
-                <li key="email" className={styles.link}><img src={getImageUrl("contact/email.png")} alt="Email icon" />
-                <a href="mailto:olusolataofeek@gmail.com">olusolataofeek@gmail.com</a>
-                </li>
-                <li key="github" className={styles.link}><img src={getImageUrl("contact/github.png")} alt="Github icon" />
-                <a href="https://github.com/Taofeekolusola">Github.com//Taofeekolusola</a>
-                </li>
-                <li key="linkedin" className={styles.link}><img src={getImageUrl("contact/linkedin.png")} alt="Linkedin icon" />
-                <a href="https://www.linkedin.com/in/adeshina123/">Linkedin.com//Taofeekolusola</a>
-                </li>
-                <li key="x" className={styles.link}><img src={getImageUrl("contact/X.png")} alt="X icon" />
-                <a href="https://x.com/TaofeekOlusola1/">X.com//Taofeekolusola</a>
-                </li>
-                <li key="tel" className={styles.link}><img src={getImageUrl("contact/tel.png")} alt="telephone icon" />
-                <a href="09063659635">Tel - 09063659635</a>
-                </li>
-                
-            </ul>
-        </footer>
-    )
+  return (
+    <footer
+      id="contact"
+      className="min-h-screen w-full bg-primary text-white flex flex-col items-center justify-center px-4 py-12"
+    >
+      <div className="text-center mb-12">
+        <h2 className="text-5xl font-bold tracking-wide">Contact</h2>
+        <p className="text-2xl font-light mt-4">Feel free to reach out</p>
+      </div>
+
+      <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-10 w-full max-w-3xl px-4">
+        {[
+          {
+            icon: 'contact/email.png',
+            label: 'olusolataofeek@gmail.com',
+            link: 'mailto:olusolataofeek@gmail.com',
+          },
+          {
+            icon: 'contact/github.png',
+            label: 'Github',
+            link: 'https://github.com/Taofeekolusola',
+          },
+          {
+            icon: 'contact/linkedin.png',
+            label: 'Linkedin',
+            link: 'https://www.linkedin.com/in/adeshina123/',
+          },
+          {
+            icon: 'contact/X.png',
+            label: 'X.com//Taofeekolusola',
+            link: 'https://x.com/TaofeekOlusola1/',
+          },
+          {
+            icon: 'contact/tel.png',
+            label: 'Tel - 09063659635',
+            link: 'tel:09063659635',
+          },
+        ].map((item, index) => (
+          <li
+            key={index}
+            className={`flex flex-col items-center text-center ${index === 4 ? 'col-span-2' : ''}`}
+          >
+            <img
+              src={getImageUrl(item.icon)}
+              alt="icon"
+              className="w-10 h-10 mb-2"
+            />
+            <a
+              href={item.link}
+              className="text-lg hover:underline break-words"
+            >
+              {item.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </footer>
+  );
 }

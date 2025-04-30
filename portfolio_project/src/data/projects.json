@@ -2,6 +2,14 @@
     {
         "title": "Project A",
         "imageSrc": "projects/project.png",
+        "description": "This is a shopping cart app project developed using react.",
+        "skills": ["React", "Tailwind"],
+        "demo": "https://shopping-cart-app-beta-ochre.vercel.app/",
+        "source": "https://github.com/Taofeekolusola/react/tree/main/react_practices/reactFromScratch/shopping-cart-app"
+    },
+    {
+        "title": "Project B",
+        "imageSrc": "projects/project.png",
         "description": "This is a Todo-List project developed using react.",
         "skills": ["React", "JS"],
         "demo": "https://todo-app-orpin-phi.vercel.app/",
@@ -9,20 +17,11 @@
     },
 
     {
-        "title": "Project B",
+        "title": "Project C",
         "imageSrc": "projects/project.png",
         "description": "This is a responsive web project developed using HTML and CSS.",
         "skills": ["HTML", "CSS"],
         "demo": "https://responsive-techie-web.vercel.app/",
         "source": "https://github.com/Taofeekolusola/freecodecamp/tree/main/responsive_web"
-    },
-
-    {
-        "title": "Project C",
-        "imageSrc": "projects/project.png",
-        "description": "This is an Analog-Clock developed using HTML CSS and JS.",
-        "skills": ["HTML", "CSS", "JS"],
-        "demo": "https://codepen.io/Taofeek-Olusola/pen/YzMREzo",
-        "source": "https://github.com/Taofeekolusola/Recipe-App/tree/main/Analog-clock"
     }
 ]

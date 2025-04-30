@@ -1,17 +1,20 @@
-import projects from '../../data/projects.json'
-import ProjectCard from './ProjectCard.jsx'
-import styles from './Project.module.css'
+import projects from '../../data/projects.json';
+import ProjectCard from './ProjectCard.jsx';
+
 export default function Project() {
-    return <section className={styles.container} id="project">
-        <h2 className={styles.title}>Projects</h2>
-        <div className={styles.projects}>
-  {
-    projects.map((project, id) => (
-        <div>
-            <ProjectCard key={id} project={project}/>
-        </div>
-    ))
-  }
-</div>
+  return (
+    <section id="project" className="mt-[50px] text-white mx-[5%] md:mx-[10%]">
+      <h2 className="text-[35px] font-bold tracking-[1.75px] uppercase text-center md:text-left">
+        Projects
+      </h2>
+
+      <div className="mt-5 flex flex-wrap justify-evenly items-center gap-2 w-full">
+        {projects.map((project, id) => (
+          <div key={id}>
+            <ProjectCard project={project} />
+          </div>
+        ))}
+      </div>
     </section>
+  );
 }
