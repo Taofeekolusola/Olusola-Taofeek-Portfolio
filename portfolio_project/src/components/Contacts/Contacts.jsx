@@ -11,11 +11,11 @@ export default function Contact() {
         <p className="text-2xl font-light mt-4">Feel free to reach out</p>
       </div>
 
-      <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-10 w-full max-w-3xl px-4">
+      <ul className="flex flex-col items-center gap-8 w-full max-w-md">
         {[
           {
             icon: 'contact/email.png',
-            label: 'olusolataofeek@gmail.com',
+            label: 'Email',
             link: 'mailto:olusolataofeek@gmail.com',
           },
           {
@@ -30,23 +30,23 @@ export default function Contact() {
           },
           {
             icon: 'contact/X.png',
-            label: 'X.com//Taofeekolusola',
+            label: 'X(twitter)',
             link: 'https://x.com/TaofeekOlusola1/',
           },
           {
             icon: 'contact/tel.png',
-            label: 'Tel - 09063659635',
-            link: 'tel:09063659635',
+            label: '09063659635',
+            link: 'https://wa.me/+2349063659635',
           },
         ].map((item, index) => (
           <li
             key={index}
-            className={`flex flex-col items-center text-center ${index === 4 ? 'col-span-2' : ''}`}
+            className="flex flex-col items-center gap-2 text-center"
           >
             <img
               src={getImageUrl(item.icon)}
               alt="icon"
-              className="w-10 h-10 mb-2"
+              className="w-10 h-10"
             />
             <a
               href={item.link}
