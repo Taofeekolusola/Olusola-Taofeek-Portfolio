@@ -4,7 +4,7 @@ import ProjectCard from './ProjectCard.jsx';
 export default function Project() {
   return (
     <section id="project" className="mt-[50px] text-white mx-[5%] md:mx-[10%]">
-      <h2 className="text-[35px] font-bold tracking-[1.75px] uppercase text-center md:text-left">
+      <h2 className="text-[35px] flex justify-center font-bold tracking-[1.75px] uppercase text-center md:text-left">
         Projects
       </h2>
 

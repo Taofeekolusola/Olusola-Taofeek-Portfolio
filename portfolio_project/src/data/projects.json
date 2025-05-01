@@ -11,9 +11,18 @@
         "title": "Project B",
         "imageSrc": "projects/project.png",
         "description": "This is a Todo-List project developed using react.",
-        "skills": ["React", "JS"],
+        "skills": ["React", "CSS"],
         "demo": "https://todo-app-orpin-phi.vercel.app/",
         "source": "https://github.com/Taofeekolusola/Todo-App/tree/main/Todo_App"
+    },
+
+    {
+        "title": "Project C",
+        "imageSrc": "projects/project.png",
+        "description": "This is a simple blog app developed using react.",
+        "skills": ["React", "CSS"],
+        "demo": "https://fullstack-client1-side.vercel.app/#/login",
+        "source": "https://github.com/Taofeekolusola/fullstack_project"
     },
 
     {
@@ -24,4 +33,5 @@
         "demo": "https://responsive-techie-web.vercel.app/",
         "source": "https://github.com/Taofeekolusola/freecodecamp/tree/main/responsive_web"
     }
+
 ]
