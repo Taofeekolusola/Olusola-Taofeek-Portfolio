@@ -45,7 +45,7 @@ const Home = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          {['React', 'Next', 'Tailwind', 'NodeJs', 'Express', 'JavaScript', 'Typescript', 'Postgres', 'Mongodb'].map((skill, index) => (
+          {['React', 'Next', 'Tailwind', 'NodeJs', 'Express', 'JavaScript', 'Typescript', 'Postgres', 'Mongodb', 'Mysql', 'Docker', 'Render'].map((skill, index) => (
             <motion.div
               key={`skill-${index}`}
               className="bg-white bg-opacity-10 backdrop-blur-md rounded-lg p-4 text-center"

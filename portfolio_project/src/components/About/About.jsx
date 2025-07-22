@@ -27,8 +27,8 @@ export default function About() {
         >
           <img
             src={getImageUrl('taofeek.png')}
-                    alt="image of me"
-            className="w-60 h-60 object-contain rounded-full shadow-xl border-4 border-cyan-500"
+            alt="image of me"
+            className="w-72 h-72 object-contain rounded-full shadow-xl border-4 border-cyan-500"
           />
         </motion.div>
 
@@ -40,24 +40,26 @@ export default function About() {
           transition={{ duration: 0.8 }}
         >
           <p className="text-base md:text-lg leading-8 tracking-wide space-y-4">
-            I am a dedicated and fast-learning Frontend Engineer with a strong passion for crafting visually appealing, user-friendly, and responsive web applications. My expertise lies in leveraging modern JavaScript frameworks and libraries like{' '}
-            <span className="text-cyan-300 font-semibold">React</span> and{' '}
-            <span className="text-cyan-300 font-semibold">Redux</span> to build interactive user interfaces that deliver seamless experiences.
+            I’m Olusola Taofeek, a passionate and dedicated Fullstack Engineer with a strong foundation in building efficient, scalable, and user-friendly applications. With expertise in <span className="text-cyan-300 font-semibold">JavaScript</span>, <span className="text-cyan-300 font-semibold">TypeScript</span>, <span className="text-cyan-300 font-semibold">Node.js</span>, <span className="text-cyan-300 font-semibold">Express</span>, and <span className="text-cyan-300 font-semibold">React</span>, I create solutions that bridge the gap between seamless user experiences and robust backend architectures.
           </p>
 
           <p className="text-base md:text-lg leading-8 tracking-wide space-y-4 mt-6">
-            With hands-on experience in{' '}
-            <span className="text-cyan-300 font-semibold">HTML</span>,{' '}
-            <span className="text-cyan-300 font-semibold">CSS</span>, and{' '}
-            <span className="text-cyan-300 font-semibold">JavaScript</span>, I have developed and deployed various frontend applications including responsive websites, to-do list apps, recipe app and E-commerce app.
+            Over the years, I have developed a portfolio of projects that showcase my proficiency in frameworks like <span className="text-cyan-300 font-semibold">React</span>, <span className="text-cyan-300 font-semibold">Redux</span>, <span className="text-cyan-300 font-semibold">Node.js</span>, and <span className="text-cyan-300 font-semibold">Express</span>. Whether it’s crafting responsive web interfaces, deploying backend APIs with <span className="text-cyan-300 font-semibold">PostgreSQL</span> and <span className="text-cyan-300 font-semibold">MongoDB</span>, or containerizing applications with <span className="text-cyan-300 font-semibold">Docker</span>, I thrive on turning ideas into functional, impactful solutions.
           </p>
 
           <p className="text-base md:text-lg leading-8 tracking-wide space-y-4 mt-6">
-            I thrive in collaborative environments and have contributed to team projects like AirBnB clones and creative frontend solutions. I’ve earned certifications in Responsive Web Design and Python to strengthen my skills.
+            I’m a fast learner and always eager to take on challenges that help me grow technically and personally. My journey in software engineering has been marked by internships, collaborations, and hands-on experiences that have honed my problem-solving skills and adaptability.
           </p>
 
           <p className="text-base md:text-lg leading-8 tracking-wide space-y-4 mt-6">
-            My long-term goal is to master frontend development and build impactful digital solutions that elevate user experiences.
+            Some highlights of my journey:
+            <ul className="list-disc pl-6">
+              <li>Developed and deployed multiple full-stack applications, including real estate, movie recommendation, and simple blog applications.</li>
+              <li>Designed responsive front-end solutions and implemented dynamic functionalities using <span className="text-cyan-300 font-semibold">React</span>.</li>
+              <li>Containerized and deployed applications using <span className="text-cyan-300 font-semibold">Docker</span> for seamless integration and scalability.</li>
+              <li>Earned certifications in <span className="text-cyan-300 font-semibold">Python</span>, <span className="text-cyan-300 font-semibold">Backend Development</span>, <span className="text-cyan-300 font-semibold">Responsive Web Design</span>, and <span className="text-cyan-300 font-semibold">Software Development</span>.</li>
+            </ul>
+            I’m deeply motivated by the opportunity to contribute to impactful projects and be part of a team where I can make a difference. My long-term goal is to continue mastering fullstack development while leveraging my skills to drive organizational success.
           </p>
         </motion.div>
       </div>
