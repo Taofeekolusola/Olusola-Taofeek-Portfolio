@@ -2,13 +2,39 @@
     {
         "title": "Project A",
         "imageSrc": "projects/project.png",
+        "description": "A movie app developed using react, node and mongodb.",
+        "skills": ["React", "Tailwind", "Node.js", "MongoDB"],
+        "demo": "https://movie-mate-mu.vercel.app/",
+        "source": "https://github.com/Taofeekolusola/movie_rec_app"
+    },
+    {
+        "title": "Project B",
+        "imageSrc": "projects/project.png",
+        "description": "A blog app developed using react, node and mongodb.",
+        "skills": ["React", "CSS", "Node.js", "MongoDB"],
+        "demo": "https://fullstack-client1-side.vercel.app/#/login",
+        "source": "https://github.com/Taofeekolusola/fullstack_server/tree/main/server"
+    },
+
+     {
+        "title": "Project F",
+        "imageSrc": "projects/project.png",
+        "description": "This is a responsive web project developed using HTML and CSS.",
+        "skills": ["HTML", "CSS"],
+        "demo": "https://responsive-techie-web.vercel.app/",
+        "source": "https://github.com/Taofeekolusola/freecodecamp/tree/main/responsive_web"
+    },
+
+    {
+        "title": "Project C",
+        "imageSrc": "projects/project.png",
         "description": "This is a shopping cart app project developed using react.",
         "skills": ["React", "Tailwind"],
         "demo": "https://shopping-cart-app-beta-ochre.vercel.app/",
         "source": "https://github.com/Taofeekolusola/react/tree/main/react_practices/reactFromScratch/shopping-cart-app"
     },
     {
-        "title": "Project B",
+        "title": "Project D",
         "imageSrc": "projects/project.png",
         "description": "This is a Todo-List project developed using react.",
         "skills": ["React", "CSS"],
@@ -17,21 +43,12 @@
     },
 
     {
-        "title": "Project C",
+        "title": "Project E",
         "imageSrc": "projects/project.png",
-        "description": "This is a simple blog app developed using react.",
-        "skills": ["React", "CSS"],
-        "demo": "https://fullstack-client1-side.vercel.app/#/login",
-        "source": "https://github.com/Taofeekolusola/fullstack_project"
-    },
-
-    {
-        "title": "Project C",
-        "imageSrc": "projects/project.png",
-        "description": "This is a responsive web project developed using HTML and CSS.",
-        "skills": ["HTML", "CSS"],
-        "demo": "https://responsive-techie-web.vercel.app/",
-        "source": "https://github.com/Taofeekolusola/freecodecamp/tree/main/responsive_web"
+        "description": "This is A Quiz and Examination app developed using react.",
+        "skills": ["React", "Tailwind"],
+        "demo": "https://app-apps.vercel.app/dashboard/login",
+        "source": "https://github.com/Taofeekolusola/Frontend_Assessment/tree/main/client"
     }
 
 ]

@@ -1,5 +1,12 @@
 [
     {
+        "role": "Fullstack Developer",
+        "organization": "Freelance",
+        "startDate": "2022",
+        "endDate": " present ",
+        "imageSrc": "history/freelance.jpg"
+    },
+    {
         "role": "Software Engineering Intern",
         "organization": "Mentor Techies",
         "startDate": "October, 2023",
@@ -21,5 +28,6 @@
         "endDate": " Jan 2025 ",
         "imageSrc": "history/minaret.png"
     }
+
 
 ]
