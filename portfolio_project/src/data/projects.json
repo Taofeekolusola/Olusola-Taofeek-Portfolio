@@ -1,5 +1,5 @@
 [
-    {
+     {
         "title": "Project A",
         "imageSrc": "projects/project.png",
         "description": "This is a Real Estate project developed using Next, node and Mongodb.",
